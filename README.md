@@ -1,6 +1,6 @@
 # Mongo Doc Store 0.0.1
 
-> A very minimalist mongodb client for Node.js
+> A minimalist mongodb client for Node.js
 
 ### Installation
 
@@ -15,13 +15,11 @@ $ npm install mongo-docstore
 var store = require('mongo-docstore');
 
 // 1. Configure...
-store.configure(function() {
-	store.connectionString = 'your-mongo-connection-here';
-});
-
-var george = { id: 1, name: 'George Harrison', role: 'Guitar' };
+store.connectionString = 'your-mongo-connection-here';
 
 // 2. Add a document to the 'beatles' collection (id is optional)...
+var george = { id: 1, name: 'George Harrison', role: 'Guitar' };
+
 store.add('beatles', george, function(error, beatle) {
 
 	// beatle will contain:
