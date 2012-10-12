@@ -1,0 +1,14 @@
+{
+  "author": "Leandro Boffi (lboffi@gmail.com)",
+  "name": "mongo-docstore",
+  "description": "A very minimalist mongodb client for Node.js",
+  "version": "0.0.1",
+  "dependencies": {
+  	"mongodb": "1.1.11"
+  }
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/leandrob/mongo-docstore.git"
+  },
+  "main": "./lib/index.js"
+}
