@@ -2,7 +2,7 @@
   "author": "Leandro Boffi (lboffi@gmail.com)",
   "name": "mongo-docstore",
   "description": "A very minimalist mongodb client for Node.js",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "dependencies": {
   	"mongodb": "1.1.11"
   },
