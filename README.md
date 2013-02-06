@@ -1,4 +1,4 @@
-# Mongo Doc Store 0.0.2
+# Mongo Doc Store 0.0.3
 
 > A minimalist mongodb client for Node.js
 
